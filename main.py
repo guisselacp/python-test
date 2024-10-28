@@ -11,3 +11,9 @@ def print_message():
     print("Hello World!")
 
 print_message()
+
+first_number = 10
+second_number = 5
+
+first_number + second_number
+10 + 5
