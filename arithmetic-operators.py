@@ -24,10 +24,23 @@ print(total_cost)
 variable_one = "hello "
 variable_two = "world"
 
-variable_one + variable_two
+variable_one += variable_two
 print(variable_one)
 print(variable_two)
 
 x = 2
 x *= 3
 print(x)
+
+#Challenge
+num = 100
+print(num)
+
+num //= 50
+print(num)
+
+num_b = 100
+print(num_b)
+
+num_b %= 3
+print(num_b)
