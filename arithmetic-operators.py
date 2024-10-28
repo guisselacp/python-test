@@ -19,3 +19,15 @@ print(10900 % 60)
 product = 72
 total_cost = product + (product * 0.21)
 print(total_cost)
+
+#Incrementing and Decrementing
+variable_one = "hello "
+variable_two = "world"
+
+variable_one + variable_two
+print(variable_one)
+print(variable_two)
+
+x = 2
+x *= 3
+print(x)
