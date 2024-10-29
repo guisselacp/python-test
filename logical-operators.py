@@ -14,3 +14,16 @@ result_three = (not (result_two))
 print(result_one)
 print(result_two)
 print(result_three)
+
+#Bool - Evaluate Values and Variables
+a = []
+b = ""
+c = "Hello"
+d = 0.0
+e = 7
+
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(d))
+print(bool(e))
