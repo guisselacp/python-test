@@ -18,7 +18,7 @@ users = ['anna', 'chris', 'brian']
 
 for index in range(len(users)):
     users[index] = users[index].capitalize()
-
+    #update = [user.capitalize()for user in users]
 print(users)
 
-   #update = [user.capitalize()for user in users]
+
