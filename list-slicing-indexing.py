@@ -15,3 +15,12 @@ print(fruits[-1])
 # Runnable Example
 fruits = ["apple", "banana", "peach", "pear", "plum", "orange"]
 print(fruits[0:4:2])
+
+# Challenge
+names = ["Mark", "Betty", "John", "Sally", "Bill", "Steven", "Mary", "Emily", "Adam"]
+name = names[2]
+print(name)
+two_names = names[2:4]
+print(two_names)
+other_names = names[1:6:2]
+print(other_names)

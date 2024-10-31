@@ -23,9 +23,6 @@ for number in range(10):
 
 print('Left the loop')
 
-# Challenge
-
-
 # Pass
 for number in range(10):
     if number == 5:
