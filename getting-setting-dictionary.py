@@ -29,7 +29,7 @@ name = data.get("first_name")
 print(name)
 species = data.get("species")
 print(species)
-#data.update({"age": "42"})
+#data.update({"age": 42})
 data['age'] = 42 # Add a new key and value
 
 # this will print the data to the terminal
