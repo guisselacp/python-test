@@ -25,6 +25,6 @@ print({(i,j): (True if i==j else False) for i in range(4) for j in range(4)})
 
 # Challenge
 cards = ['king', 'queen', 'jack', 'ace']
-cards_dict= { }
+# cards_dict= { } It is optional, not necessary
 cards_dict = {key:key.upper() for key in cards}
 print(cards_dict)
