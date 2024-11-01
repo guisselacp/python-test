@@ -28,4 +28,20 @@ for direction in directions:
     print(direction)
 
 # Challenge
-    
+data = {
+	"first_name": "brian",
+	"last_name": "johnson",
+	"occupation": "student"
+}
+
+scores = [6, 9, 8, 7, 8, 9]
+
+for key, value in data.items():
+    #use data[key] to call the value
+    if data[key] != "student":
+        data[key] = data[key].capitalize()
+print(data)
+
+for ind in range(len(scores)):
+    scores[ind] +=1
+print(scores)    
