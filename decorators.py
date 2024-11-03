@@ -29,3 +29,19 @@ def area(length, width):
 print(f'The area is {area(3,5)}{area.unit}')
 
 # Challenge
+def add_author(func):
+    """
+    Decorator to add string with author information
+    to print after decorated function runs
+    """
+    def wrapper(*args):
+        r = func(*args)
+        return f"{r}\nBy Code Institute"
+    return wrapper
+        
+@add_author
+def print_article_title(title):
+      return f"Article Title: {title}" 
+result= print_article_title("Python Decorators")
+
+print(result)
