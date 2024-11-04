@@ -13,10 +13,15 @@ print(hyundai)
 # Runnable Example
 while True:
     try:
-        x = int(input('Enter a number.'))
-        print(f'Number is {x}')
+        a = int(input("Please enter an integer as the numerator: "))
+        b = int(input("Please enter an integer as the denominator: "))
+        print(a / b)
+    except ZeroDivisionError:
+        print("Please enter a valid denominator.")
     except ValueError:
-        print('Not a number')
+        print("Both values have to be integers.")
+    except Exception:
+        print('Another error has occurred')
 
 
 
