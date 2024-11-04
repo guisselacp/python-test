@@ -27,3 +27,15 @@ random.shuffle(deck)
 print(deck)
 
 # Challenge - Random
+import random
+
+def ten_rand_nums():
+    list = []
+    n = 10
+    for i in range(n):
+        list.append(random.randint(0,100))
+    return list
+result = ten_rand_nums() 
+print(result)
+random.shuffle(result)
+print(result)
